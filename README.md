@@ -1,4 +1,4 @@
-# 【Submitted】 Re-boosting Self-Collaboration Parallel Prompt GAN for Unsupervised Image Restoration
+# Re-boosting Self-Collaboration Parallel Prompt GAN for Unsupervised Image Restoration
 
 ### Xin Lin, Yuyan Zhou, Jingtong Yue, Chao Ren, Kelvin C.K. Chan, Lu Qi, Ming-Hsuan Yang
 
