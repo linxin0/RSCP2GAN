@@ -1,1 +1,59 @@
-# RSCP2GAN
+# 【Submitted】 Re-boosting Self-Collaboration Parallel Prompt GAN for Unsupervised Image Restoration
+
+### Xin Lin, Yuyan Zhou, Jingtong Yue, Chao Ren, Kelvin C.K. Chan, Lu Qi, Ming-Hsuan Yang
+
+
+
+This is the official code of RSCP^2^GAN for denoising task.
+
+![main_fig](./kuangjia.png)
+
+
+## Abstract
+Deep learning methods have shown remarkable performance in image restoration, particularly when trained on large-scale paired datasets. However, acquiring such data in real-world scenarios poses a significant challenge. Although unsupervised restoration approaches based on generative adversarial networks (GANs) offer a promising solution without paired datasets, they are difficult to surpass the performance limitations of conventional unsupervised GAN-based frameworks without significantly modifying existing structures or increasing the computational complexity of the restorer. To address this problem, we propose a self-collaboration (SC) strategy for existing restoration models. It utilizes the information from the previous stage as feedback to guide the subsequent stages and achieves significant performance improvement without increasing the framework's inference complexity. It comprises a prompt learning (PL) module and a restorer ($Res$). It iteratively replaces the previous less powerful fixed restorer $\overline{Res}$ in the PL module with the current powerful $Res$. The enhanced PL module will generate better pseudo-degraded/clean image pairs, leading to a more powerful $Res$ for the next iteration without any extra parameters or inference computational complexity. The proposed iteratively updated process generates better synthetic clean/degraded image pairs, leading to a more powerful $Res$ for the next iteration. Additionally, the traditional self-ensemble (SE) and our self-collaboration (SC) strategies can enhance the performance of the pre-trained restorers from different perspectives. However, the SE increases the computational complexity during the inference phase. Therefore, we propose a re-boosting module to the SC (Reb-SC) to improve the SC strategy further by incorporating SE into SC without increasing the inference time. In this way, the performance of the restorer can be improved further (approximately 0.3dB). In addition, we propose a baseline framework that includes parallel generative adversarial branches with complementary ``self-synthesis'' and ``unpaired-synthesis'' constraints. This baseline ensures the effectiveness of the training framework. Extensive experimental results on various restoration tasks demonstrate that the proposed method performs favorably against existing state-of-the-art unsupervised restoration methods.
+
+## Requirements
+Our experiments are done with:
+
+- Python 3.7.13
+- PyTorch 1.13.0
+- numpy 1.21.5
+- opencv 4.6.0
+- scikit-image 0.19.3
+
+## Dateset
+
+SIDD
+Train: https://pan.baidu.com/s/1c1iPIIJvSfq6s6_M7iyjPA  2oe5 
+
+Test: https://pan.baidu.com/s/1yltsD684qpJa0SMJ9SdR5w   8qzf 
+
+PolyU
+
+
+## Pre-trained Models
+
+https://pan.baidu.com/s/1EdXN7o9EW_ssDRHxDKFeXw    icp1 
+
+
+
+## Train & Test
+You can get the complete SIDD validation dataset from https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php.
+
+'.mat' files need to be converted to images ('.png'). 
+
+train and test are both in `train_v6.py`.
+
+run `trainv6.py`.
+
+## Citation
+
+    @inproceedings{scpgabnet,
+      title={Unsupervised Image Denoising in Real-World Scenarios via Self-Collaboration Parallel Generative Adversarial Branches}, 
+      author={Xin Lin and Chao Ren and Xiao Liu and Jie Huang and Yinjie Lei},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      year={2023}
+    }
+
+## Contact
+If you have any questions, please contact linxin@stu.scu.edu.cn
