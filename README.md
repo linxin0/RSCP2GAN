@@ -6,7 +6,7 @@
 
 This is the official code of RSCP^2^GAN for denoising task.
 
-![main_fig](./kuangjia.png)
+![main_fig](./kuangjia_6.png)
 
 
 ## Abstract
