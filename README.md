@@ -51,12 +51,5 @@ run `trainv6.py`.
 
 ## Citation
 
-    @inproceedings{scpgabnet,
-      title={Unsupervised Image Denoising in Real-World Scenarios via Self-Collaboration Parallel Generative Adversarial Branches}, 
-      author={Xin Lin and Chao Ren and Xiao Liu and Jie Huang and Yinjie Lei},
-      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-      year={2023}
-    }
-
 ## Contact
 If you have any questions, please contact linxin@stu.scu.edu.cn
