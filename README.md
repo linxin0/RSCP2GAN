@@ -4,7 +4,7 @@
 
 This is the journal version of [SCPGabNet](https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_Unsupervised_Image_Denoising_in_Real-World_Scenarios_via_Self-Collaboration_Parallel_Generative_ICCV_2023_paper.pdf)
 
-This is the official code of RSCP^2^GAN for denoising tasks.
+This is the official code of [RSCP^2^GAN](https://arxiv.org/pdf/2408.09241) for denoising tasks.
 
 ![main_fig](./kuangjia_6.png)
 
