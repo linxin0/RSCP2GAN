@@ -306,8 +306,8 @@ def train_epoch(net, datasets, optimizer, args, criterionGAN):
         for ii, data in enumerate(data_loader[phase]):
         # for ii,data in enumerate(zip(data_loader[phase])):
 
-            im_noisy,im_gt = [x.cuda() for x in data]
-
+            im_noisy,_ = [x.cuda() for x in data]
+            _,im_gt = [x.cuda() for x in data1]
             ################################
             #training generator
             #############################
