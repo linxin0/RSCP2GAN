@@ -446,15 +446,15 @@ def train_epoch(net, datasets, optimizer, args, criterionGAN):
                 loss_P_real = loss_P_real1
 
                 pred_fake1 = net['P'](fake_im_noisy1.detach())
-                pred_fake2 = net['P'](fake_im_noisy3.detach())
-                pred_fake3 = net['P'](fake_im_noisy4.detach())
-                pred_fake4 = net['P'](fake_im_noisy2.detach())
+                % pred_fake2 = net['P'](fake_im_noisy3.detach())
+                % pred_fake3 = net['P'](fake_im_noisy4.detach())
+                % pred_fake4 = net['P'](fake_im_noisy2.detach())
 
                 loss_P_fake1 = criterionGAN(pred_fake1, False)
-                loss_P_fake2 = criterionGAN(pred_fake2, False)
-                loss_P_fake3 = criterionGAN(pred_fake3, False)
-                loss_P_fake4 = criterionGAN(pred_fake4, False)
-                loss_P_fake = loss_P_fake1 + loss_P_fake3 + loss_P_fake4 + loss_P_fake2
+                % loss_P_fake2 = criterionGAN(pred_fake2, False)
+                % loss_P_fake3 = criterionGAN(pred_fake3, False)
+                % loss_P_fake4 = criterionGAN(pred_fake4, False)
+                loss_P_fake = loss_P_fake1
                 loss_P = (loss_P_real + loss_P_fake) * 0.5
                 loss_P.backward()
 
