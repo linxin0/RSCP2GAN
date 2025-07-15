@@ -54,4 +54,4 @@ run `trainv6.py`.
 ## Citation
 
 ## Contact
-!It seemed that using one discriminator had better results than using four.! If you have any questions, please contact linxin@stu.scu.edu.cn
+If you have any questions, please contact linxin020826@gmail.com
