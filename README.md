@@ -6,7 +6,7 @@ This is the journal version of [SCPGabNet](https://openaccess.thecvf.com/content
 
 This is the official code of [RSCP^2^GAN](https://arxiv.org/pdf/2408.09241) for denoising tasks.
 
-The code of deraining and desnowing will be released recent days.
+The code of deraining and desnowing will be released in recent days.
 
 ![main_fig](./kuangjia_6.png)
 
