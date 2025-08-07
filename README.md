@@ -64,10 +64,18 @@ For fast test: run 'test.py'
 
 #### Deraining
 
+https://pan.baidu.com/s/1JqslqmNyCSjdiWdYmp25qA  4jid 
 
 #### Desnowing
 
 https://pan.baidu.com/s/1Wc-LbWyGIFANxlNemk2yPA  xak5 
+
+### Pre-trained models
+
+deraining: https://pan.baidu.com/s/1gP2EPF5_5FlHlFLTa_faPA  dqpp 
+
+desnowing: https://pan.baidu.com/s/1bIQR6qie_7-7TzSAQZFbIQ  rwts 
+
 
 
 ## Citation
