@@ -31,7 +31,9 @@ Train: https://pan.baidu.com/s/1c1iPIIJvSfq6s6_M7iyjPA  2oe5
 
 Test: https://pan.baidu.com/s/1yltsD684qpJa0SMJ9SdR5w   8qzf 
 
-For fast testing: run test.py on the test dataset in two folders:
+For fast testing: run test.py on the test dataset in two folders: 
+
+SIDD_VAL.zip: https://pan.baidu.com/s/1JiRMbTtlj7EVChzFfHb6pQ  9nrx 
 
 
 
