@@ -53,5 +53,13 @@ run `trainv6.py`.
 
 ## Citation
 
+@article{lin2025re,
+  title={Re-boosting self-collaboration parallel prompt gan for unsupervised image restoration},
+  author={Lin, Xin and Zhou, Yuyan and Yue, Jingtong and Ren, Chao and Chan, Kelvin CK and Qi, Lu and Yang, Ming-Hsuan},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
+}
+
 ## Contact
 If you have any questions, please contact linxin020826@gmail.com
