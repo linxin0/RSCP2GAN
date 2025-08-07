@@ -47,9 +47,9 @@ You can get the complete SIDD validation dataset from https://www.eecs.yorku.ca/
 
 '.mat' files need to be converted to images ('.png'). 
 
-train and test are both in `train_v6.py`.
+train and test are in  `trainv6.py`.
 
-run `trainv6.py`.
+For fast test: run 'test.py'
 
 ## Citation
 
