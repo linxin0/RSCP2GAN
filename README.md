@@ -31,9 +31,13 @@ Train: https://pan.baidu.com/s/1c1iPIIJvSfq6s6_M7iyjPA  2oe5
 
 Test: https://pan.baidu.com/s/1yltsD684qpJa0SMJ9SdR5w   8qzf 
 
+For fast testing: run test.py on the test dataset in two folders:
+
+
+
 PolyU
 
-https://pan.baidu.com/s/1TUTYkjX230UzCy_VhHEvQA   ek2d 
+https://pan.baidu.com/s/17Q1PueEiugViyvQMOQafBA   mm5d (two H5 for training and testing, and two folders for fast testing with test.py)
 
 ## Pre-trained Models
 
