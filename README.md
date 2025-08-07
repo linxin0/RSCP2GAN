@@ -44,13 +44,12 @@ https://pan.baidu.com/s/17Q1PueEiugViyvQMOQafBA   mm5d (two H5 for training and 
 
 ### Pre-trained Models
 
-
 SIDD/DND:  https://pan.baidu.com/s/1E1LGBxyEz-vPRovbcFPSjQ    nqk4
 
 PolyU:  https://pan.baidu.com/s/1lbwqndosYWhSqZ-jHDjBYg  in4g 
 
-
 ### Train & Test
+
 You can get the complete SIDD validation dataset from https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php.
 
 '.mat' files need to be converted to images ('.png'). 
@@ -58,6 +57,18 @@ You can get the complete SIDD validation dataset from https://www.eecs.yorku.ca/
 train and test are in  `trainv6.py`.
 
 For fast test: run 'test.py'
+
+## Deraining and Desnowing
+
+### Dataset
+
+#### Deraining
+
+
+#### Desnowing
+
+https://pan.baidu.com/s/1Wc-LbWyGIFANxlNemk2yPA  xak5 
+
 
 ## Citation
 
