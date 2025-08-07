@@ -37,7 +37,8 @@ https://pan.baidu.com/s/1TUTYkjX230UzCy_VhHEvQA   ek2d
 
 ## Pre-trained Models
 
-SIDD/DND:  https://pan.baidu.com/s/1XyovAFFLjOBYgsnLgkrecw    uv0m 
+
+SIDD/DND:  https://pan.baidu.com/s/1E1LGBxyEz-vPRovbcFPSjQ    nqk4
 
 PolyU:  https://pan.baidu.com/s/16yilFMMDJUSM9bEa5719tw       j61y 
 
